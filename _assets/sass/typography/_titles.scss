@@ -87,6 +87,7 @@
   //@include font-smoothing;
   letter-spacing: .03rem;
 
+  &--sm   { font-size: $s4; }
   &--lg   { font-size: $s8; }
   &--xxl   { font-size: $s9; }
 
@@ -94,6 +95,7 @@
     //letter-spacing: .1rem;
     font-size: $s7;
 
+    &--sm   { font-size: $s6; }
     &--lg   { font-size: $s9; }
     &--xxl   { font-size: $s10; }
   }
@@ -101,12 +103,14 @@
     //letter-spacing: .1rem;
     font-size: $s8;
 
+  &--sm   { font-size: $s7; }
   &--lg   { font-size: $s9; }
   &--xxl   { font-size: $s11; }
   }
   @include bp($lg){
     font-size: $s10;
 
+    &--sm   { font-size: $s9; }
     &--lg   { font-size: $s11; }
     &--xxl   { font-size: $s12; }
   }

@@ -9,44 +9,13 @@ nav-order: 2
 
 banner:
   title: Strand&shy;urlaub
-  title-sup: Lorem ipsum
+  title-sub: Sonnencreme nicht vergessen
 
-summary: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, magnam porro. Voluptatum blanditiis quaerat nam quo excepturi! Voluptatem, consequatur. Consectetur, voluptate dignissimos magnam quod. Minus dolor nihil possimus, suscipit tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+summary: "Kein Wunder, dass Strandurlaub der Klassiker bleibt. Gibt es doch kaum zwei Strände, die einander gleichen. Als Beweis ziehen gleich sieben Beaches weltweit ins Feld: Karibik und Indischer Ozean, schwarze und glitzernd-weiße Strände, Küsten und Buchten an der Algarve, in Sardinien und Südamerika, dazu drei spannende Hörausflüge."
+cta: Sonne tanken
 
-audiobooks:
-
-  title:
-  items:
-
-    - title: Töchter des Feuers
-      duration: "Spieldauer: 6 Std. 16 Min."
-      id: one
-      author: Nora Roberts
-      description: "Drei Schwestern, untrennbar verbunden durch das Schicksal"
-      sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
-      url: "https://www.audible.de/pd/Toechter-des-Feuers-Hoerbuch/B00PKADQQU?qid=1562938626&sr=1-6&pf_rd_p=34e3b439-2a21-4dff-af95-98a7a74a1f67&pf_rd_r=J4B1FBZF93DQSDK69H9Y&ref=a_search_c3_lProduct_1_6"
-
-    - title: Diese gottverdammten Träume
-      duration: "Spieldauer: 22 Std. 25 Min."
-      id: two
-      author: Richard Russo
-      description: "Seit über zwanzig Jahren arbeitet Miles Roby im örtlichen Diner"
-      sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
-      url: "https://www.audible.de/pd/Diese-gottverdammten-Traeume-Hoerbuch/B07N6GWLL9?pf_rd_p=3f2e16a0-a544-4cab-9e32-c437a499f56a&pf_rd_r=AA4BE0W1Q4SJWV3FR6JJ&ref=a_adblbests_c3_lProduct_4_17"
-
-    - title: "Moby Dick; oder: Der Wal"
-      duration: "Spieldauer: 30 Std."
-      id: three
-      author: Herman Melville
-      description: "Moby-Dick ist die Geschichte von Kapitän Ahab und seiner Jagd auf den weißen Wal."
-      sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
-      url: "https://www.audible.de/pd/Moby-Dick-oder-Der-Wal-Hoerbuch/B01FWE42VQ?pf_rd_p=3f2e16a0-a544-4cab-9e32-c437a499f56a&pf_rd_r=V9GCNBWQQV6ADBQSHH67&ref=a_adblbests_c3_lProduct_1_15"
-
-
-
-intro-title: "Empfohlene Hörbücher"
-intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, magnam porro. Voluptatum blanditiis quaerat nam quo excepturi! Voluptatem, consequatur. Consectetur, voluptate dignissimos magnam quod. Minus dolor nihil possimus, suscipit tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. "
-
+intro-title: "Wolkenfrei mit Aussicht auf Hörspaß"
+intro: "Meilenweit nichts als Sandstrand und tiefblaues Meer, die Sonnenbrille sitzt, ein Schirm spendet Schatten und die folgenden Hörbücher Kurzweil. Im Angebot: ein Sommer an der zauberhaften Amalfiküste, ein Blind Date mit unabsehbaren Konsequenzen und 2 Millionen Dollar am Meeresboden. "
 
 ---
 
@@ -57,13 +26,13 @@ intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, magnam 
 
 <div id="{{section.id}}" class="harvey{% cycle '', ' harvey--swap bg--light' %}">
     <div class="harvey__img" style="background-image: url('{{site.img}}/content/{{page.id}}/{{section.id}}.jpg');"></div>
-    <div class="harvey__text vpad--xl">
+    <div class="harvey__text vpad--xl boxpad--xl">
       <h2 class="text text--lg text--bold text--upper text--bv-grey">{{section.location}}</h2>
       <div class="space--sm"></div>
       <h2 class="title title--sm text--semibold ">{{section.title}}</h2>
       <div class="space--md"></div>
       <div class="text text--xl text--justify">{{section.description}}</div>
-      <div class="space--xl"></div>
+      <div class="space--xl bv-mob-hide"></div>
     </div>
 </div>
 

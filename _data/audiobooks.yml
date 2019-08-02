@@ -5,8 +5,8 @@
   duration: "Spieldauer: 7 Std. und 34 Min"
   author: Marie Matisek
   description: "Leicht wie das Leben an der Amalfiküste"
-  sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
-  url: "#"
+  sample: "https://samples.audible.de/bk/adko/003629/bk_adko_003629_sample.mp3"
+  url: "https://adbl.co/318aQrK"
 
 - id: strandurlaub
   num: "2"
@@ -23,7 +23,7 @@
   duration: "Spieldauer: 13 Std. 14 Min"
   author: Catherine Steadman
   description: "Ein millionenschwerer Fund, der alles verändert."
-  sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
+  sample: "https://samples.audible.de/bk/hamb/002801/bk_hamb_002801_sample.mp3"
   url: "https://adbl.co/2Kf5fZY"
 
 

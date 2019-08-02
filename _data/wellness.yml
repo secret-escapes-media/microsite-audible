@@ -14,20 +14,20 @@
         location: Mecklenburger Seenplatte
         content: "Im 19. Jahrhundert erbaut, beherbergte das Barock&shy;schloss jahr&shy;zehnte&shy;lang den mecklen&shy;burgischen Adel, bevor es als 5*-Wellness-Hotel mit einem breiten Portfolio an Saunen, Massagen und Wellness&shy;anwen&shy;dungen wieder&shy;geboren wurde. Kom&shy;bi&shy;nieren Sie auf der WellActive Tour Training, Regeneration und Erholung und atmen Sie in der Sauerstoff&shy;sauna oder im MicroSalt Raum ganz tief durch. Mit dem Müritz-Nationalpark wartet zudem eine Fülle von Seen in direkter Nähe."
 
-      - title: Weissenhaus Grand Village Resort & Spa am Meer
+      - title: Weissenhaus Grand Village Resort & Spa&nbsp;am&nbsp;Meer
         id: two
         location: Ostsee
         content: "Die Ostsee: allein dieser Name verspricht pure Erholung. Keine 100 Meter von den Strand&shy;körben träumen Sie sich in der Schloss&shy;therme vom Weissenhaus auf 2.000 qm in Balance. Wie wäre es mit dem Besuch einer russischen Banja, das authen&shy;tische Aroma von Birken&shy;zweigen beim Aufguss? Ein Bad im Solepool unter freiem Himmel? Eine Hamam-Zeremonie? Danach ein Gang durch den Hotel&shy;garten oder eine Frischluft&shy;session am Meer – perfekt."
 
-      - title: Victor's Residenz-Hotel Schloss Berg
+      - title: Victor's Residenz-Hotel Schloss&nbsp;Berg
         id: three
         location: Perl-Nennig, Saarland
-        content: "Wie wäre es mit einem Abstecher auf den Genfer See? Von Mitte Januar bis Ende November bieten sich die besten Bedin&shy;gungen zum Fangen von Süßwasser-Delikatessen wie Seesaiblingen, Felchen und Hechten, Barschen und Seeforellen. Auch Muscheln und Flusskrebse sind in dem arten&shy;reichen Gewässer zu finden. Die Angel&shy;ausrüstung und das Boot sind im Preis genauso inbegriffen wie der idyllische Panorama&shy;blick über den&nbsp;See."
+        content: "Schloss zum Dritten: diesmal im schönen Moselland, an der Grenze zu Luxemburg. Inmitten von Weinbergen gruppieren sich Renaissance-Schloss und toskanische Villa zum 5-Sterne-Superior-Domizil. Dabei finden die saarländischen Trauben nicht nur den Weg ins Glas. Als Hauptbestandteil der Produkte von Vinoble Cosmetics spenden die vielseitigen Früchte Feuchtigkeit und Mineralien. Kulinarisch wird das Ganze im Victor’s FINE DINING by Christian Bau veredelt: drei Michelin-Sterne, unzählige Genussmomente."
 
       - title: Chateau Monty
         id: four
         location: Marienbad
-        content: "Spa oder doch Kurort: im Jugendstilgebäude des Chateau Monty in Marienbad wird seit 1901 das körperliche Wohlbefinden äußerst ernst genommen. In einer Eingangsuntersuchung und Beratung wird in Zusammenarbeit mit dem Arzt die therapeutische Richtung festgelegt, das Spa-Menü deckt daraufhin wirklich jeden Wunsch ab. Massagen, Peelings, Wickel, Bäder, Hanftherapie, Schokoladenmasken: you name it. Dazu gesellen sich Yoga und Pilates im Park."
+        content: "Spa oder doch Kurort: im Jugendstil&shy;gebäude des Chateau Monty in Marienbad wird seit 1901 das körperliche Wohlbefinden äußerst ernst genommen. In einer Eingangsuntersuchung und Beratung wird in Zusammenarbeit mit dem Arzt die therapeutische Richtung festgelegt, das Spa-Menü deckt daraufhin wirklich jeden Wunsch ab. Massagen, Peelings, Wickel, Bäder, Hanftherapie, Schokoladenmasken: you name it. Dazu gesellen sich Yoga und Pilates im Park."
 
 
 
@@ -46,21 +46,21 @@
     items:
 
 
-      - title: Steigenberger Grandhotel Belvedere Davos
+      - title: Steigenberger Grandhotel Belvedere&nbsp;Davos
         id: one
-        location: Perl-Nennig, Saarland
-        content: "Davos, seit 1853 als inter&shy;nationaler Luft&shy;kurort gerühmt, ist ebenso Zentrum des alpinen Jet-Sets und eines der größten Winter&shy;sport&shy;gebiete der Schweiz. Neben Saunen und Spa-Behandlungen steht im Steigenberger Grandhotel Belvédère mit Reiki japanische Heilkunst auf dem Plan. Das gesunde Höhenklima von Davos auf über 1.500 Meter hilft bei Atemwegs&shy;erkrankungen, stärkt das Immun&shy;system und regt die Hormon&shy;bildung an."
+        location: Schweiz
+        content: "Davos, seit 1853 als inter&shy;nationaler Luft&shy;kurort gerühmt, ist ebenso Zentrum des alpinen Jet-Sets und eines der größten Winter&shy;sport&shy;gebiete der Schweiz. Neben Saunen und Spa-Behandlungen steht im Steigenberger Grandhotel Belvédère mit Reiki japanische Heilkunst auf dem Plan. Das gesunde Höhenklima von Davos auf über 1.500 Meter hilft bei Atemwegs&shy;erkrankungen, stärkt das Immun&shy;system und regt die Hormon&shy;bildung&nbsp;an."
 
-      - title: NIDUM Casual Luxury Hotel
+      - title: NIDUM Casual Luxury&nbsp;Hotel
         id: two
         location: Österreich
-        content: "Am Berghang im Innsbrucker Land gelegen, zeigt das NIDUM was Casual Luxury heißt: hoher Anspruch statt verbissener Perfek&shy;tionismus. Das Herzstück seines Wellness-Bereiches, der Infinity-Pool ist bei jedem Wetter geöffnet, ganzjährig auf 31° Grad temperiert und so endlos, wie das Berg&shy;panorama. Diese Symbiose mit der Umgebung geht in der Sauna weiter: In den Fels gebaut, nur über Hänge&shy;brücke zu erreichen, aufregend und entspannend zugleich."
+        content: "Am Berghang im Innsbrucker Land gelegen, zeigt das NIDUM was Casual Luxury heißt: hoher Anspruch statt ver&shy;bissener Perfek&shy;tionismus. Das Herzstück seines Wellness-Bereiches, der Infinity-Pool ist bei jedem Wetter geöffnet, ganzjährig auf 31° Grad temperiert und so endlos, wie das Berg&shy;panorama. Diese Symbiose mit der Umgebung geht in der Sauna weiter: In den Fels gebaut, nur über Hänge&shy;brücke zu erreichen, aufregend und entspannend zugleich."
 
       - title: Das AlpenweltResort
         id: three
-        location: Zillertal
+        location: Österreich
         copyright: "©Das Alpenwelt Resort Königsleiten"
-        content: "Vielleicht liegt es daran, dass man hier über dem Stress des Flach&shy;landes thront. Vielleicht liegt es an der Höhenluft, der Höhensonne, der Stille oder an der besonderen Energie der Alpen. Solange alle Komponenten solch hingebungs&shy;volles Wellness-High-Life bewirken, wie im Ziller&shy;taler Alpen&shy;welt Resort, ist nur eines wichtig: Wie kann man die Zeit im FelsenBAD verlängern? Welchen Winkel der ca.1.600 qm erkundet man als nächstes, die Aemotio Spa Liege oder den Eisbrunnen? Und wann kommt man wieder?"
+        content: "Vielleicht liegt es daran, dass man hier über dem Stress des Flach&shy;landes thront. Vielleicht liegt es an der Höhenluft, der Höhensonne, der Stille oder an der besonderen Energie der Alpen. Solange alle Komponenten solch hingebungs&shy;volles Wellness-High-Life bewirken, wie im Ziller&shy;taler Alpen&shy;welt Resort, ist nur eines wichtig: Wie kann man die Zeit im FelsenBAD verlängern? Welchen Winkel der ca.1.600 qm erkundet man als nächstes, die Aemotio Spa Liege oder den Eisbrunnen? Und wann kommt man&nbsp;wieder?"
 
 
 
@@ -78,18 +78,18 @@
     items:
 
 
-      - title: Nandini Jungle Resort and Spa
+      - title: Nandini Jungle Resort and&nbsp;Spa
         id: one
         location: Bali
         cta: ""
-        content: "Eine einmalige Naturkulisse am Ayung-Fluss, tropische Ausblicke vom Pool und ein Spa im Dschungel umgeben vom Murmeln von Fluss und Wasserfall: das Nandini Jungle Resort & Spa auf Bali bietet dies und mehr. Genießen Sie entspannende Massagen in Ihrem Regenwald-Resort, das einem traditionellen balinesischen Dorf nachempfunden ist, nehmen Sie an Yogakursen und geleiteten Meditationen teil und fühlen Sie sich Tag für Tag immer leichter und ruhevoller."
+        content: "Eine einmalige Naturkulisse am Ayung-Fluss, tropische Ausblicke vom Pool und ein Spa im Dschungel umgeben vom Murmeln von Fluss und Wasserfall: das Nandini Jungle Resort & Spa auf Bali bietet dies und mehr. Genießen Sie entspannende Massagen in Ihrem Regenwald-Resort, das einem traditionellen baline&shy;sischen Dorf nachempfunden ist, nehmen Sie an Yogakursen und geleiteten Meditationen teil und fühlen Sie sich Tag für Tag immer leichter und ruhevoller."
 
       - title: Grotta Giusti
         id: two
         location: Toskana
         content: "Von Verdi als 'achtes Weltwunder' gepriesen, ist Grotta Giusti zwischen Lucca und Florenz die größte Thermalgrotte Europas. Auf 200 m bilden Höhlenräume mit Stalaktiten und Stalagmiten ein natürliches Dampfbad bei einer Lufttemperatur zwischen 28 und 34 Grad und 100% Luftfeuchtigkeit. Den Grottengrund bedeckt der Limbo, ein See aus warmem Thermalwasser, in den Sie sich auf Wunsch als Taucher hinabsenken können. Wenn das nicht Tiefenentspannung ist."
 
-      - title: Jumeirah Al Wathba Desert Resort & Spa
+      - title: Jumeirah Al Wathba Desert Resort &&nbsp;Spa
         id: three
         location: Abu Dhabi, VAE
         content: "Wüste und Wellness statt Wellness-Wüste – das Jumeirah Al Wathba ruht auf den Dünen Abu Dhabis, in der größten Sandwüste der Welt, Rub al-Chali. Keine bloße Fata Morgana ist das hauseigene Talise Spa. Begeben Sie sich bei arabischen Spa-Ritualen auf individuelle Reise Richtung Revitalisierung. Danach stehen mit türkischem Hamam, Dampfbädern und Schneehöhlen alle Tore Richtung Wohlbefinden offen."
