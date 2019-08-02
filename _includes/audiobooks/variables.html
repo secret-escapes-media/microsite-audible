@@ -1,0 +1,7 @@
+<!-- offer variables just to make the loops more readable -->
+
+<!-- all samples -->
+{% assign audiobooks = site.data.audiobooks %}
+
+<!-- samples by category -->
+{% assign regio-audiobooks = audiobooks | where: 'id', page.id   %}

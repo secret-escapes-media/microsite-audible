@@ -1,0 +1,122 @@
+{% include audiobooks/variables.html %}
+
+<div class="container " style="margin-top: -50px;">
+  <div class="row row--xl-4-4-4 row--md-6-6 row--gutters">
+  {% for audiobook in audiobooks %}
+      <div class="col">
+        {% include audiobooks/audiobook.html %}
+      </div>
+  {% endfor %}
+  </div>
+</div>
+
+
+<script>
+
+
+
+
+var bvOverlay1 = document.getElementById("bv-overlay-1");
+var bvOverlay2 = document.getElementById("bv-overlay-2");
+var bvOverlay3 = document.getElementById("bv-overlay-3");
+var bvOverlay4 = document.getElementById("bv-overlay-4");
+var bvOverlay5 = document.getElementById("bv-overlay-5");
+var bvOverlay6 = document.getElementById("bv-overlay-6");
+var bvOverlay7 = document.getElementById("bv-overlay-7");
+var bvOverlay8 = document.getElementById("bv-overlay-8");
+var bvOverlay9 = document.getElementById("bv-overlay-9");
+
+var bvCaption1 = document.getElementById("bv-caption-1");
+var bvCaption2 = document.getElementById("bv-caption-2");
+var bvCaption3 = document.getElementById("bv-caption-3");
+var bvCaption4 = document.getElementById("bv-caption-4");
+var bvCaption5 = document.getElementById("bv-caption-5");
+var bvCaption6 = document.getElementById("bv-caption-6");
+var bvCaption7 = document.getElementById("bv-caption-7");
+var bvCaption8 = document.getElementById("bv-caption-8");
+var bvCaption9 = document.getElementById("bv-caption-9");
+
+
+/*
+for ( i = 1; i < 10; i++){
+
+
+  bvOverlay[i].onmouseover = function() {
+    bvCaption[i].style.visibility = "visible";
+
+  }
+    console.log(bvOverlay);
+}*/
+
+//  console.log(bvOverlay2);
+bvOverlay1.onmouseover = function() {
+  bvCaption1.style.visibility = "visible";
+}
+bvOverlay1.onmouseout = function() {
+  bvCaption1.style.visibility = "hidden";
+}
+
+bvOverlay2.onmouseover = function() {
+  bvCaption2.style.visibility = "visible";
+}
+bvOverlay2.onmouseout = function() {
+  bvCaption2.style.visibility = "hidden";
+}
+
+bvOverlay3.onmouseover = function() {
+  bvCaption3.style.visibility = "visible";
+}
+bvOverlay3.onmouseout = function() {
+  bvCaption3.style.visibility = "hidden";
+}
+
+bvOverlay4.onmouseover = function() {
+  bvCaption4.style.visibility = "visible";
+}
+bvOverlay4.onmouseout = function() {
+  bvCaption4.style.visibility = "hidden";
+}
+
+bvOverlay5.onmouseover = function() {
+  bvCaption5.style.visibility = "visible";
+}
+bvOverlay5.onmouseout = function() {
+  bvCaption5.style.visibility = "hidden";
+}
+
+bvOverlay5.onmouseover = function() {
+  bvCaption5.style.visibility = "visible";
+}
+bvOverlay5.onmouseout = function() {
+  bvCaption5.style.visibility = "hidden";
+}
+
+bvOverlay6.onmouseover = function() {
+  bvCaption6.style.visibility = "visible";
+}
+bvOverlay6.onmouseout = function() {
+  bvCaption6.style.visibility = "hidden";
+}
+
+bvOverlay7.onmouseover = function() {
+  bvCaption7.style.visibility = "visible";
+}
+bvOverlay7.onmouseout = function() {
+  bvCaption7.style.visibility = "hidden";
+}
+
+bvOverlay8.onmouseover = function() {
+  bvCaption8.style.visibility = "visible";
+}
+bvOverlay8.onmouseout = function() {
+  bvCaption8.style.visibility = "hidden";
+}
+
+bvOverlay9.onmouseover = function() {
+  bvCaption9.style.visibility = "visible";
+}
+bvOverlay9.onmouseout = function() {
+  bvCaption9.style.visibility = "hidden";
+}
+
+</script>

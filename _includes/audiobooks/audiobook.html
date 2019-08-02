@@ -1,0 +1,18 @@
+
+  <div id="bv-overlay-{{audiobook.num}}" class="bv-audiobook-thumb bg-img  bg-img--1-1" style="background-image: url({{site.img}}/content/audiobooks/{{audiobook.id}}/audiobook-{{audiobook.num}}.jpg);">
+    <a href="{{audiobook.url}}" class="bg-img__link " target="_blank"></a>
+      <div class="bg-img__content bv-mob-hide" id="bv-caption-{{audiobook.num}}">
+        <div class="space--md"></div>
+        <div class="text text--md text--normal text--left">{{audiobook.author}}</div>
+        <div class="text text--xl text--left text--bold ">{{audiobook.title}}</div>
+        <div class="space--xxs"></div>
+        <div class="text text--md text--normal text--left">{{audiobook.description}}</div>
+        <div class="space--xxs"></div>
+        <div class="text text--md text--semibold text--left">{{audiobook.duration}}</div>
+      </div>
+    <div class="bg-img__bg-overlay bv-mob-hide "> </div>
+  </div>
+  <div class="space--xs"></div>
+  <div class="">
+    <audio  id="" controls="controls" src="{{audiobook.sample}}" type="audio/mpeg"></audio>
+  </div>

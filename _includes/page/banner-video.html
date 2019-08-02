@@ -1,0 +1,33 @@
+<div class="banner">
+  <div class="site-header__offset"></div>
+  <div class="banner__bg" ></div>
+  <div class="banner__wrap">
+
+    <div class="container text--center text--white">
+      <div class="banner__title">
+      {% if page.banner.title-sup %}
+        <h2 class="text--white sub-title--lg sub-title text--upper ">{{page.banner.title-sup}} </h2>
+      {% endif %}
+        <h1 class="banner-title text--semibold">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+      </div>
+      <div class="space--md"></div>
+
+    </div>
+
+  </div>
+  <div class="banner__bg-video" style="background-image: url('{{site.img}}/content/hero.jpg')">
+    <video controls poster="{{site.img}}/content/hero.jpg"  playsinline loop muted autoplay>
+    <source src="https://media.istockphoto.com/videos/pretty-young-brunette-woman-in-bikini-uses-mobile-phone-in-hammock-at-video-id942612356" type="video/mp4">
+  </video>
+
+  <!--
+      <video id="banner-video" src="https://media.istockphoto.com/videos/pretty-young-brunette-woman-in-bikini-uses-mobile-phone-in-hammock-at-video-id942612356" height="100%" playsinline loop muted autoplay>
+        <img src="{{site.img}}/content/hero.jpg" title="Your browser does not support the <video> tag">
+      </video>
+  -->
+  </div>
+  <div class="banner__nav">
+    {% include nav/site.html %}
+  </div>
+  <div class="site-nav__offset"></div>
+</div>

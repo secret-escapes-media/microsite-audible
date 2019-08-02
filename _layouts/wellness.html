@@ -1,0 +1,42 @@
+---
+layout: default
+extra-js: true
+extra-css: true
+---
+
+
+{% include page/audiobooks.html %}
+
+{% if page.page-nav %}{% include nav/page.html %}{% endif %}
+
+{% for feature in page.features %}
+  <div class="width width--xxxl">
+    <div id="slider-{{forloop.index}}" class="js-slider slider">
+      <div class="slider__images">
+        <noscript class="js-lazy-load-slider">
+          <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{feature.id}}/01.jpg" />
+          <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{feature.id}}/03.jpg" />
+          <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{feature.id}}/05.jpg" />
+          <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{feature.id}}/07.jpg" />
+        </noscript>
+      </div>
+      <div class="slider__btn-wrap">
+        <span class="js-slider-nav slider__btn slider__btn--left" data-slider-nav-direction="prev"></span><span class="js-slider-nav slider__btn slider__btn--right" data-slider-nav-direction="next"></span>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="space--lg width--xl">
+      <h2 class="title title--xl title--color">{{feature.title}}</h2>
+      <div class="space--xxs"></div>
+      <h3 class="sub-title title--color">{{feature.location}}</h3>
+
+      <p class="text--xxl">{{feature.description}}</p>
+    </div>
+    {% unless forloop.last %}
+      <div class="space--xxxxl"></div>
+    {% endunless %}
+  </div>
+{% endfor %}
+
+<div class="space--xxxxl"></div>

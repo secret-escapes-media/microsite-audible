@@ -1,0 +1,188 @@
+---
+layout: default
+id: wellness
+title: Wellness
+nav: true
+nav-order: 4
+nav-title: Wellness & Spa
+content-pages: true
+extra-js: true
+extra-css: true
+
+banner:
+  title: Wellness & Spa
+  title-sup: Lorem ipsum
+
+page-nav:
+  - id: royal
+    title: Royale Wellness
+  - id: alpin
+    title: Alpine Wellness
+  - id: weltweit
+    title: Wellness weltweit
+
+summary: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, magnam porro. Voluptatum blanditiis quaerat nam quo excepturi! Voluptatem, consequatur. Consectetur, voluptate dignissimos magnam quod. Minus dolor nihil possimus, suscipit tempore. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+audiobooks:
+
+  title:
+  items:
+
+    - title: BECOMING. Meine Geschichte
+      duration: "Spieldauer: 6 Std. 16 Min."
+      id: one
+      author: Nora Roberts
+      description: "Die inspirierendste First Lady, so nah wie nie."
+      url: "https://adbl.co/2LyWywG"
+      sample: "https://samples.audible.de/bk/hoer/002635/bk_hoer_002635_sample.mp3"
+
+    - title: Während du schliefst. Der Traumpodcast
+      duration: "Spieldauer: 22 Std. 25 Min."
+      id: two
+      author: Christina Wolf, Malte Borgmann
+      description: "Kein Traum ist abwegig genug – kein Traum ist langweilig."
+      url: "https://adbl.co/30PaPca"
+      sample: "https://samples.audible.de/or/optp/000002/or_optp_000002_sample.mp3"
+
+    - title: "Der Mann mit den schönen Füßen"
+      duration: "Spieldauer: 30 Std."
+      id: three
+      author: Arto Paasilinna
+      description: "Erst Scheidung, dann Mordkomplott: Aulis Rävänders Abenteuer."
+      url: "https://adbl.co/2JK6PDO"
+      sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
+
+
+intro-title: "Entspannung für die Ohren"
+intro: "Saunawelten, Infinity-Pools, Lomi-Lomi-Massagen: es gibt viele Arten und Weisen, das langersehnte Wohlbefinden herbeizurufen. Warum sich danach mit Lesen mühen? Einfach wählen: herrlich finnischer Unsinn, inspirierende Lebensgeschichte oder Traumerkundung? Dann Augen schließen und sich treiben lassen"
+
+
+---
+
+
+
+{% include audiobooks/regio-audiobooks.html %}
+
+{% if page.page-nav %}{% include nav/page.html %}{% endif %}
+
+
+
+
+{% for section in site.data[page.id] %}
+
+<div class="" id="{{section.id}}">
+  <div class="bv-parallax vpad--md" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position: {{section.hero}};">
+  <div class="container ">
+      <div class="space--xxxl vpad--xl bv-mob-hide"></div>
+      <div class="space--xxxl"></div>
+      <div class="space--xxxl"></div>
+      <div class="space--xxxl"></div>
+      <div class="width width--xxl text--white" >
+        <div class=" text--left bg--black boxpad--xxl">
+          <h1 class="title title--sm text--semibold text--upper ">{{section.title}}</h1>
+          <p class="text text--lg ">{{section.description}}</p>
+        </div>
+       </div>
+
+    </div>
+</div>
+<div class="container vpad--md text--center">
+     {% for poi in section.pois.items %}
+
+     <div class="row vpad--sm row--6-6 row--gutters text--left {% cycle '', 'bv-swap' %}">
+        <div class="col ">
+          <div id="slider-{{forloop.index}}" class="js-slider slider">
+          <div class="slider__images">
+            <noscript class="js-lazy-load-slider">
+
+              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/01.jpg" />
+              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/02.jpg" />
+              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/03.jpg" />
+              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/04.jpg" />
+              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/05.jpg" />
+
+            </noscript>
+          </div>
+          <div class="slider__btn-wrap">
+
+            <span class="js-slider-nav slider__btn slider__btn--left" data-slider-nav-direction="prev"></span>
+            <span class="js-slider-nav slider__btn slider__btn--right" data-slider-nav-direction="next"></span>
+            <div class="slider__copyright text text--white text--semibold text--xs" >{{poi.copyright}}</div>
+          </div>
+        </div>
+      </div>
+         <div class="col text--left">
+           <h5 class="text text--lg text--bold text--upper text--bv-grey">{{poi.location}}</h5>
+           <div class="space--xxs"></div>
+           <h2 class="title title--sm text--semibold ">{{poi.title}}</h2>
+           <div class="space--sm"></div>
+           <div class="text text--xl text--justify">{{poi.content}}</div>
+           <div class="space--xxs"></div>
+         </div>
+
+
+
+     </div>
+
+        {% endfor %}
+
+  </div>
+
+</div>
+
+{% endfor %}
+
+
+{% include page/wellness-offers.html %}
+
+
+<script>
+
+
+
+var bvOverlay7 = document.getElementById("bv-overlay-7");
+var bvOverlay8 = document.getElementById("bv-overlay-8");
+var bvOverlay9 = document.getElementById("bv-overlay-9");
+
+
+var bvCaption7 = document.getElementById("bv-caption-7");
+var bvCaption8 = document.getElementById("bv-caption-8");
+var bvCaption9 = document.getElementById("bv-caption-9");
+
+
+/*
+for ( i = 1; i < 10; i++){
+
+
+  bvOverlay[i].onmouseover = function() {
+    bvCaption[i].style.visibility = "visible";
+
+  }
+    console.log(bvOverlay);
+}*/
+
+//  console.log(bvOverlay2);
+
+
+bvOverlay7.onmouseover = function() {
+  bvCaption7.style.visibility = "visible";
+}
+bvOverlay7.onmouseout = function() {
+  bvCaption7.style.visibility = "hidden";
+}
+
+bvOverlay8.onmouseover = function() {
+  bvCaption8.style.visibility = "visible";
+}
+bvOverlay8.onmouseout = function() {
+  bvCaption8.style.visibility = "hidden";
+}
+
+bvOverlay9.onmouseover = function() {
+  bvCaption9.style.visibility = "visible";
+}
+bvOverlay9.onmouseout = function() {
+  bvCaption9.style.visibility = "hidden";
+}
+
+</script>

@@ -1,0 +1,25 @@
+# Site settings
+title: Audible
+client:
+  name: Client Name
+  link: "https://adbl.co/2JGgWZ7"
+core-se-link: https://www.secretescapes.de/aktuelle-angebote
+se-tracking-link: "utm_source=SE&utm_medium=hub&utm_campaign=audible_DE_2019"
+description: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/de/audible" # the subpath of your site, e.g. /blog/
+img:     "/de/audible/_assets/img"
+css:     "/de/audible/_assets/css"
+js:      "/de/audible/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed

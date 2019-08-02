@@ -1,0 +1,83 @@
+
+- id: strandurlaub
+  num: "1"
+  title: Ein Sommer wie Limoneneis
+  duration: "Spieldauer: 7 Std. und 34 Min"
+  author: Marie Matisek
+  description: "Leicht wie das Leben an der Amalfiküste"
+  sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
+  url: "#"
+
+- id: strandurlaub
+  num: "2"
+  title: Blind Date
+  duration: "Spieldauer: 10 Std. 53 Min"
+  author: Joy Fielding
+  description: "Dates sind meistens spannend - und manchmal fatal."
+  sample: "https://samples.audible.de/bk/hoer/002772/bk_hoer_002772_sample.mp3"
+  url: "https://adbl.co/2Y4RbHj"
+
+- id: strandurlaub
+  num: "3"
+  title: "Something in the Water"
+  duration: "Spieldauer: 13 Std. 14 Min"
+  author: Catherine Steadman
+  description: "Ein millionenschwerer Fund, der alles verändert."
+  sample: "https://samples.audible.de/bk/lueb/001445/bk_lueb_001445_sample.mp3"
+  url: "https://adbl.co/2Kf5fZY"
+
+
+- id: roadtrips
+  num: "4"
+  title: Ein Coffee to go in Togo
+  duration: "Spieldauer: 15 Std. 10 Min"
+  author: Markus Maria Weber
+  description: "Per Anhalter durch die Sahara, per Rad durch Afrika."
+  sample: "https://samples.audible.de/bk/adko/003624/bk_adko_003624_sample.mp3"
+  url: "https://adbl.co/2YxWkfe"
+
+- id: roadtrips
+  num: "5"
+  title: Picknick mit Bären
+  duration: "Spieldauer: 10 Std. 55 Min"
+  author: Bill Bryson
+  description: "Bill Bryson auf dem Appalachian Trail: ein Klassiker."
+  sample: "https://samples.audible.de/bk/adko/000166/bk_adko_000166_sample.mp3"
+  url: "https://adbl.co/2K44ZxY"
+
+- id: roadtrips
+  num: "6"
+  title: "Dieser weite Weg"
+  duration: "Spieldauer: 12 Std. und 10 Min"
+  author: Isabel Allende
+  description: "Ein Arzt, vom Spanischen Bürgerkrieg zu Pinochets Chile."
+  sample: "https://samples.audible.de/bk/hoer/002785/bk_hoer_002785_sample.mp3"
+  url: "https://adbl.co/2yt3YJf"
+
+
+- id: wellness
+  num: "7"
+  title: Love to share
+  duration: "Spieldauer: 10 Std. 54 Min"
+  author: Beth O'Leary
+  description: "Ein Apartment in London, zwei Mitbewohner - oder mehr als das?"
+  sample: "https://samples.audible.de/bk/rhde/003738/bk_rhde_003738_sample.mp3"
+  url: "https://adbl.co/2Gm0Hji"
+
+- id: wellness
+  num: "8"
+  title: Während du schliefst. Der Traumpodcast
+  duration: "Spieldauer: 8 Std."
+  author: Christina Wolf, Malte Borgmann
+  description: "Kein Traum ist abwegig genug – kein Traum ist langweilig."
+  sample: "https://samples.audible.de/or/optp/000002/or_optp_000002_sample.mp3"
+  url: "https://adbl.co/30PaPca"
+
+- id: wellness
+  num: "9"
+  title: "Du musst nicht von allen gemocht werden"
+  duration: "Spieldauer: 6 Std. 13 Min"
+  author: Ichiro Kishimi
+  description: "Alfred Adlers Lehre im modernen Gewand - Bestseller!"
+  sample: "https://samples.audible.de/bk/adko/004399/bk_adko_004399_sample.mp3"
+  url: "https://adbl.co/2ZkW00p"

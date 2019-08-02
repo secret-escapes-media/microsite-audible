@@ -1,0 +1,40 @@
+
+- id: one
+  title: Küstenspektakel in Irland
+  num: "1"
+  cta: http://bit.ly/2Jbw9TC
+  description: "Zwischen majestätischer Alpenkulisse und türkisblauem See liegt Genf – die westlichste Stadt der Schweiz. 'Stadt des Friedens' wird der europäische Hauptsitz der UNO mit internationaler, humanitärer Tradition und weltstädtischem Flair an der Rhone auch genannt. Die kleine Metropole hat viel zu bieten, hier können Sie es&nbsp;entdecken."
+
+  pois:
+
+    title:
+    items:
+
+      - title: Im hohen Norden
+        id: img1
+        caption:
+        content: "Startpunkt ist der äußerste Norden Irlands, im County Donegal. Die unberührte Gegend ist geographisch weitgehend isoliert vom Rest des Landes, bietet dafür aber Geschenke wie die Klippen von Slieve League, die mit 600 Metern zu den höchsten Klippen Europas gehören. Und darüber heißt es: Vorhang auf für Polarlichter, die oft den Himmel von Donegal veredeln."
+
+      - title: Von Malin Head nach Brow Head
+        id: img2
+        caption:
+        content: "Ob der Wild Atlantic Way die längste zusammenhängende Küstenstraße ist, sei dahingestellt. Die Fakten sprechen für sich: über 2.500 km von Nord nach Süd, sechs Regionen, über 500 Sehenswürdigkeiten und 50 Blue-Flag-Strände machen ihn zum Mekka für Roadtrip-Fans aller Fa­çon. Nationalparks, Surfspots, Berge, Wale und Delfine: so reich ist Irlands Westküste."
+
+      - title: Buchten für Ästhetiker
+        id: img3
+        caption:
+        content: "Thailand? Kroatien? Nein, es ist die irische Clew Bay, die mit über 140 Inseln und unzähligen Felsen den Atem verschlägt. Kaum aufgeatmet folgt auch gleich das wilde Hinterland von Connemara, das bereits Oscar Wilde zum Lobhymnen animierte. Burgen, Abteien, klare Seen: Éire at its best!"
+
+      - title: Klippen, die die Welt bedeuten
+        id: img4
+        content: "Willkommen zu Irlands Hauptattraktion: Cliffs of Moher. Der UNESCO Global Geopark erstreckt sich über 8 km entlang Clares Küste, mit einmaligen Ausblicken auf bis zu 214 Metern Höhe. Perfekte Gelegenheit, um den Motor abzustellen und sich im ewigen Naturschauspiel von Land und Wellen zu verlieren. Tipp: kommen Sie nach 16 Uhr, wo die Besucherströme verebbt und Lichtbedingungen optimal sind."
+
+      - title: Ring of Kerry und die Halbinseln
+        id: img5
+        caption:
+        content: "Wo Kerry auf Cork trifft und fünf majestätische Halbinseln ins Meer ragen, lockt die Panoramastraße Ring of Kerry auf Iveragh. Passieren Sie die grünen Weiten des Killarney-Nationalparks, entdecken Sie Steinreihen und vergessen Sie nicht die Skelligs, allen voran Skellig Michael mit einem der bekanntesten Kloster Irlands – und Kulisse für Star Wars VIII."
+
+      - title: Südende und Fischerdorfidyll
+        id: img6
+        caption:
+        content: "Sie haben es geschafft. Entspannen Sie sich an den Blue-Flag-Stränden in West Cork, gehen Sie auf Geschmacksreise in Kinsale, der bunten Gourmethauptstadt Irlands und grüßen Sie den südwestlichsten Punkt der Insel, Mizen Head. Bis zum nächsten Mal."

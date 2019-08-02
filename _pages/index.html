@@ -1,0 +1,73 @@
+---
+layout: default
+id: overview
+nav: true
+nav-order: 1
+title: Übersicht
+
+banner:
+  title: Der Soundtrack zu Ihrer Reise
+  title-sup: präsentiert von Audible und Secret&nbsp;Escapes
+
+
+intro-title: "Hören Sie genau zu"
+intro: "Audiofans Achtung! Egal ob Sie Roadtrips, Spa-Auszeiten oder Strandurlaub vorziehen – oder alle drei – ein Podcast oder Hörspiel von Audible bereichert jede Reise um eine weitere Facette. Als Produzent und Plattform für Hörbücher, Hörspiele, Podcasts und mehr ist Audible mit tausenden von Titeln die weltweite Nummer Eins. Kombinieren Sie die perfekte Reise mit dem optimalen Soundtrack – endlose Hörwelten warten auf Sie."
+
+
+
+---
+<div class="vpad--xxl bg--beige">
+  <div class="container">
+    <div class="width width--lg">
+       <div class="text text--xl text--justify">
+         <h2 class="title title--md text--left text--semibold text--bv-darkgrey">{{page.intro-title}}</h2>
+         <div class="space--xs"></div>
+         <p>{{page.intro}}</p>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container vpad--xxl">
+
+
+  {% assign destinations = site.html_pages | where: 'content-pages', 'true'  | sort:'nav-order' %}
+
+  {% for destination in destinations %}
+
+  <div class="bob {% cycle '', 'bob--swap' %}">
+    <div class="bob__img">
+      <a href="{{site.baseurl}}{{destination.url}}" class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{destination.id}}/hero.jpg');"></a>
+    </div>
+    <div class="bob__text ">
+      <div class="space--sm"></div>
+      <h2 class="title title--sm text--semibold ">{{destination.title}}</h2>
+      <div class="space--xxs"></div>
+      <p class="text text--lg">{{destination.summary}}</p>
+      <div class="space--lg"></div>
+      <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--orange">Mehr erfahren</a>
+    </div>
+  </div>
+
+  {% endfor %}
+
+</div>
+
+
+<div class="vpad--md bg--beige">
+  <div class="container">
+    <div class="space--lg"></div>
+    <div class="width width--lg">
+       <div class="text text--xl text--justify">
+         <h2 class="title title--md text--left text--semibold text--bv-darkgrey">Ein Universum in Ihren Kopfhörern</h2>
+         <div class="space--sm"></div>
+         <p>Mit den folgenden neun exklusiven Titeln von Audible wird jede Art von Reise zu einem Hörerlebnis. Krimis und Thriller wechseln sich ab mit Bill Brysons humorvollen Reise&shy;anekdoten und den Abenteuern eines Unternehmens&shy;beraters in Afrika; Londoner Liebes&shy;geschichten folgen auf Traumdeutung und Philosophie. Verfeinert wird die Auswahl schließlich mit dem neuen Roman von Isabel Allende. Viel Spaß beim Erkunden.</p>
+
+       </div>
+    </div>
+  </div>
+  {% include audiobooks/all-audiobooks.html %}
+
+  <div class="space--xxl"></div>
+</div>
