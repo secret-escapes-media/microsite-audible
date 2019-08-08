@@ -11,23 +11,23 @@
 
       - title: Schloss Fleesensee
         id: one
-        location: Mecklenburger Seenplatte
-        content: "Im 19. Jahrhundert erbaut, beherbergte das Barock&shy;schloss jahr&shy;zehnte&shy;lang den mecklen&shy;burgischen Adel, bevor es als 5*-Wellness-Hotel mit einem breiten Portfolio an Saunen, Massagen und Wellness&shy;anwen&shy;dungen wieder&shy;geboren wurde. Kom&shy;bi&shy;nieren Sie auf der WellActive Tour Training, Regeneration und Erholung und atmen Sie in der Sauerstoff&shy;sauna oder im MicroSalt Raum ganz tief durch. Mit dem Müritz-Nationalpark wartet zudem eine Fülle von Seen in direkter Nähe."
+        location: Mecklenburgische Seenplatte
+        content: "Im 19. Jahrhundert erbaut, beherbergte das Barockschloss jahrzehntelang den mecklenburgischen Adel, bevor es als 5*-Wellness-Hotel mit einem breiten Portfolio an Saunen, Massagen und Wellness-Anwendungen wiedergeboren wurde. Kombinieren Sie auf der WellActive Tour Training, Regeneration und Erholung und atmen Sie in der Sauerstoffsauna oder im MicroSalt Raum ganz tief durch. Mit dem Müritz-Nationalpark wartet zudem eine Fülle von Seen in direkter Nähe."
 
       - title: Weissenhaus Grand Village Resort & Spa&nbsp;am&nbsp;Meer
         id: two
         location: Ostsee
-        content: "Die Ostsee: allein dieser Name verspricht pure Erholung. Keine 100 Meter von den Strand&shy;körben träumen Sie sich in der Schloss&shy;therme vom Weissenhaus auf 2.000 qm in Balance. Wie wäre es mit dem Besuch einer russischen Banja, das authen&shy;tische Aroma von Birken&shy;zweigen beim Aufguss? Ein Bad im Solepool unter freiem Himmel? Eine Hamam-Zeremonie? Danach ein Gang durch den Hotel&shy;garten oder eine Frischluft&shy;session am Meer – perfekt."
+        content: "Die Ostsee: Allein dieser Name verspricht pure Erholung. Keine 100 Meter von den Strandkörben entfernt, träumen Sie sich in der Schlosstherme vom Weissenhaus auf 2.000 qm in perfekte Erholung. Wie wäre es dazu mit dem Besuch einer russischen Banja und dem authentischen Aroma von Birkenzweigen beim Aufguss? Einem Bad im Solepool unter freiem Himmel oder einer Hamam-Zeremonie? Und im Anschluss noch eine Frischluftsession am Meer. Perfekt."
 
       - title: Victor's Residenz-Hotel Schloss&nbsp;Berg
         id: three
         location: Perl-Nennig, Saarland
-        content: "Schloss zum Dritten: diesmal im schönen Moselland, an der Grenze zu Luxemburg. Inmitten von Weinbergen gruppieren sich Renaissance-Schloss und toskanische Villa zum 5-Sterne-Superior-Domizil. Dabei finden die saarländischen Trauben nicht nur den Weg ins Glas. Als Hauptbestandteil der Produkte von Vinoble Cosmetics spenden die vielseitigen Früchte Feuchtigkeit und Mineralien. Kulinarisch wird das Ganze im Victor’s FINE DINING by Christian Bau veredelt: drei Michelin-Sterne, unzählige Genussmomente."
+        content: "Schloss zum Dritten: diesmal im schönen Moselland, an der Grenze zu Luxemburg. Inmitten von Weinbergen gruppieren sich Renaissance-Schloss und toskanische Villa zum 5*-Superior-Domizil. Dabei finden die saarländischen Trauben nicht nur den Weg ins Glas. Als Hauptbestandteil der Produkte von Vinoble Cosmetics spenden die vielseitigen Früchte Feuchtigkeit und Mineralien. Kulinarisch wird das Ganze im Victor’s FINE DINING by Christian Bau veredelt: drei Michelin-Sterne, unzählige Genussmomente."
 
       - title: Chateau Monty
         id: four
         location: Marienbad
-        content: "Spa oder doch Kurort: im Jugendstil&shy;gebäude des Chateau Monty in Marienbad wird seit 1901 das körperliche Wohlbefinden äußerst ernst genommen. In einer Eingangsuntersuchung und Beratung wird in Zusammenarbeit mit dem Arzt die therapeutische Richtung festgelegt, das Spa-Menü deckt daraufhin wirklich jeden Wunsch ab. Massagen, Peelings, Wickel, Bäder, Hanftherapie, Schokoladenmasken: you name it. Dazu gesellen sich Yoga und Pilates im Park."
+        content: "Spa oder doch Kurort: Im Jugendstilgebäude des Chateau Monty in Marienbad wird seit 1901 das körperliche Wohlbefinden äußerst ernst genommen. Nach einer Eingangsuntersuchung und persönlicher Beratung wird in Zusammenarbeit mit dem Arzt die therapeutische Richtung festgelegt, das Spa-Menü deckt daraufhin wirklich jeden Wunsch ab: Massagen, Peelings, Wickel, Bäder, Hanftherapie und Schokoladenmasken stehen zur Auswahl. Dazu gesellen sich Yoga und Pilates im Park."
 
 
 
@@ -38,7 +38,7 @@
 - id: alpin
   title: Alpine Wellness
   cta: http://bit.ly/2UWjiH1
-  description: "In den Bergen kann man mehr tun als wandern und Ausblicke vergleichen. Einige der weltbesten Wellness-Hotels haben sich in den Alpen nieder&shy;gelassen und bereichern Davos, das Innsbrucker und Salzburger Land mit Infinity-Pools, in den Fels gemeißelten Saunawelten und dem besonderen Augenmerk für Details."
+  description: "In den Bergen kann man mehr tun als wandern und Ausblicke vergleichen. Einige der weltbesten Wellness-Hotels haben sich in den Alpen niedergelassen und bereichern Davos sowie das Innsbrucker und Salzburger Land mit Infinity-Pools, in den Fels gemeißelten Saunawelten und dem besonderen Augenmerk für Details.  "
 
   pois:
 
@@ -49,18 +49,18 @@
       - title: Steigenberger Grandhotel Belvedere&nbsp;Davos
         id: one
         location: Schweiz
-        content: "Davos, seit 1853 als inter&shy;nationaler Luft&shy;kurort gerühmt, ist ebenso Zentrum des alpinen Jet-Sets und eines der größten Winter&shy;sport&shy;gebiete der Schweiz. Neben Saunen und Spa-Behandlungen steht im Steigenberger Grandhotel Belvédère mit Reiki japanische Heilkunst auf dem Plan. Das gesunde Höhenklima von Davos auf über 1.500 Meter hilft bei Atemwegs&shy;erkrankungen, stärkt das Immun&shy;system und regt die Hormon&shy;bildung&nbsp;an."
+        content: "Davos – seit 1853 als internationaler Luftkurort gerühmt, ist Zentrum des alpinen Jet-Sets und eines der größten Wintersportgebiete der Schweiz. Neben Saunen und Spa-Behandlungen steht im Steigenberger Grandhotel Belvédère mit Reiki japanische Heilkunst auf dem Plan. Das gesunde Höhenklima von Davos auf über 1.500 Metern hilft bei Atemwegserkrankungen, stärkt das Immunsystem und regt die Hormonbildung an."
 
       - title: NIDUM Casual Luxury&nbsp;Hotel
         id: two
         location: Österreich
-        content: "Am Berghang im Innsbrucker Land gelegen, zeigt das NIDUM was Casual Luxury heißt: hoher Anspruch statt ver&shy;bissener Perfek&shy;tionismus. Das Herzstück seines Wellness-Bereiches, der Infinity-Pool ist bei jedem Wetter geöffnet, ganzjährig auf 31° Grad temperiert und so endlos, wie das Berg&shy;panorama. Diese Symbiose mit der Umgebung geht in der Sauna weiter: In den Fels gebaut, nur über Hänge&shy;brücke zu erreichen, aufregend und entspannend zugleich."
+        content: "Am Berghang im Innsbrucker Land gelegen, zeigt das NIDUM was Casual Luxury heißt: hoher Anspruch statt verbissener Perfektionismus. Das Herzstück seines Wellness-Bereiches, der Infinity-Pool ist bei jedem Wetter geöffnet, ganzjährig auf 31° Grad temperiert und so endlos, wie das Bergpanorama. Diese Symbiose mit der Umgebung geht in der Sauna weiter: In den Fels gebaut, nur über eine Hängebrücke zu erreichen, aufregend und entspannend zugleich."
 
       - title: Das AlpenweltResort
         id: three
         location: Österreich
         copyright: "©Das Alpenwelt Resort Königsleiten"
-        content: "Vielleicht liegt es daran, dass man hier über dem Stress des Flach&shy;landes thront. Vielleicht liegt es an der Höhenluft, der Höhensonne, der Stille oder an der besonderen Energie der Alpen. Solange alle Komponenten solch hingebungs&shy;volles Wellness-High-Life bewirken, wie im Ziller&shy;taler Alpen&shy;welt Resort, ist nur eines wichtig: Wie kann man die Zeit im FelsenBAD verlängern? Welchen Winkel der ca.1.600 qm erkundet man als nächstes, die Aemotio Spa Liege oder den Eisbrunnen? Und wann kommt man&nbsp;wieder?"
+        content: "Vielleicht liegt es daran, dass man hier über dem Stress des Flachlandes thront? Vielleicht liegt es an der Höhenluft, der Höhensonne, der Stille oder an der besonderen Energie der Alpen? All dies bewirkt auf jeden Fall ein höchst zufriedenstellendes Wohlgefühl und sorgt für Wellnesswonne, wie im Zillertaler Alpenwelt Resort. Die einzig verbleibenden Fragen sind: Wie kann man die Zeit im FelsenBAD verlängern? Welchen Winkel des ca. 1.600 qm großen Spa-Areals erkundet man als nächstes? Und wann kommt man wieder?"
 
 
 
@@ -70,7 +70,7 @@
 - id: weltweit
   title: Wellness weltweit
   cta: http://bit.ly/2UWjiH1
-  description: "Eine Welt voller Wellness - Resorts nah und fern treiben ihr Spa-Know-How zur Spitze der Perfektion. Traditionelle Massagen im tiefsten Dschungel Balis, die größte Thermalgrotte Europas in der Toskana und alle Spa-Wunder des Orients erwarten Sie."
+  description: "Eine Welt voller Wellness: Resorts nah und fern treiben ihr Spa-Know-How zur Spitze der Perfektion. Traditionelle Massagen im tiefsten Dschungel Balis, die größte Thermalgrotte Europas in der Toskana und alle Spa-Wunder des Orients erwarten Sie."
 
   pois:
 
@@ -82,7 +82,7 @@
         id: one
         location: Bali
         cta: ""
-        content: "Eine einmalige Naturkulisse am Ayung-Fluss, tropische Ausblicke vom Pool und ein Spa im Dschungel umgeben vom Murmeln von Fluss und Wasserfall: das Nandini Jungle Resort & Spa auf Bali bietet dies und mehr. Genießen Sie entspannende Massagen in Ihrem Regenwald-Resort, das einem traditionellen baline&shy;sischen Dorf nachempfunden ist, nehmen Sie an Yogakursen und geleiteten Meditationen teil und fühlen Sie sich Tag für Tag immer leichter und ruhevoller."
+        content: "Eine einmalige Naturkulisse am Ayung-Fluss, tropische Ausblicke vom Pool und ein Spa im Dschungel mit Wasserfall: Das Nandini Jungle Resort & Spa auf Bali bietet all dies und mehr. Genießen Sie entspannende Massagen in Ihrem Regenwald-Resort, das einem traditionellen balinesischen Dorf nachempfunden ist, nehmen Sie an Yogakursen und geleiteten Meditationen teil und fühlen Sie sich Tag für Tag immer leichter und ruhevoller."
 
       - title: Grotta Giusti
         id: two
