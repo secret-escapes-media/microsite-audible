@@ -2,8 +2,6 @@
 - id: one
   title: Südafrikas Hauptschlagader
   num: "1"
-  cta: http://bit.ly/2Jbw9TC
-  description: "Zwischen majestätischer Alpenkulisse und türkisblauem See liegt Genf – die westlichste Stadt der Schweiz. 'Stadt des Friedens' wird der europäische Hauptsitz der UNO mit internationaler, humanitärer Tradition und weltstädtischem Flair an der Rhone auch genannt. Die kleine Metropole hat viel zu bieten, hier können Sie es&nbsp;entdecken."
 
   pois:
 
@@ -13,28 +11,28 @@
       - title: Vom Tafelberg zur Walhauptstadt
         id: img1
         caption:
-        content: "Im engeren Sinne nicht Teil der Garden Route, sprechen Kapstadts Vorzüge als Startpunkt für sich: Tafelberg und Kap der Guten Hoffnung, Streetart und pulsierende Kultur, Woodstock und Green Point. Die N2 Richtung Ost führt Sie nach 120 km nach Hermanus im Western Cape, wo Sichtungen von Buckelwalen an der Tagesordnung sind."
+        content: "Im engeren Sinne nicht Teil der Garden Route, sprechen Kapstadts Vorzüge als Startpunkt für sich: Tafelberg und Kap der Guten Hoffnung, Streetart und pulsierende Kultur, Woodstock und Green Point. Die National Route 2 führt Sie nach Osten, ganze 120 km bis nach Hermanus am Western Cape. Hier sind Sichtungen von Buckelwalen an der Tagesordnung."
 
       - title: Ein Nationalpark nach dem anderen
         id: img2
         caption:
-        content: "Von Mossel Bay im Westen nach Stormsrivier im Osten: Südafrikas Garden Route hat ihren festen Platz in der Riege der Roadtrips. Während die Kernstrecke 300 km umfasst, lohnt es sich, Kapstadt als Startpunkt zu nehmen und an der N2 nach Port Elizabeth im Addo Nationalpark mit seinen Elefanten Halt zu machen."
+        content: "Von Mossel Bay im Westen nach Storms River im Osten: Südafrikas Garden Route hat ihren festen Platz in der Riege der Roadtrips. Während die Kernstrecke 300 km umfasst, lohnt es sich, Kapstadt als Startpunkt zu nehmen und an der N2 nach Port Elizabeth im Addo Nationalpark mit seinen Elefanten Halt zu machen."
 
       - title: Strandparadiese
         id: img3
         caption:
-        content: "Einige der besten Strände Südafrikas offenbaren sich in einem Ort, der nicht nach seinem Namen aussieht: Wilderness. Daneben lädt das Städtchen zu Kanufahrten und Paragliding ein – und bietet bei Wilderness Heights von 'The Map of Africa' aus eine fantastische Aussicht auf den Kaaimans River, der die Umrisse des Kontinents nachzieht."
+        content: "Einige der besten Strände Südafrikas offenbaren sich an einem Ort, der nicht nach seinem Namen aussieht: Wilderness. Daneben lädt das Städtchen zu Kanufahrten und Paragliding ein – und bietet bei Wilderness Heights von 'The Map of Africa' aus eine fantastische Aussicht auf den Kaaimans River, der die Umrisse des Kontinents nachzieht."
 
       - title: "Knysna: Austern und Lagunen"
         id: img4
-        content: "Bekannt für seine Austern und die Lagune wird die charmante Hafenstadt von zwei Sandsteinklippen, den Knysna Heads flankiert – spektakuläre Ausblicke auf Stadt und Lagune sind vom östlichen Head aus zu erhaschen. Als weitere Besonderheit beherbergt Knysna eine große Rastafari-Community, die im Rahmen einer Township Tour besucht werden kann."
+        content: "Die charmante Hafenstadt, bekannt für köstliche Austern und eine große Lagune, wird von zwei Sandsteinklippen flankiert. Vom östlichen der sogenannten Knysna Heads sind spektakuläre Ausblicke auf Stadt und Wasser zu erhaschen. Als weitere Besonderheit beherbergt Knysna eine große Rastafari-Community, die im Rahmen einer Township Tour besucht werden kann."
 
       - title: Natur im Überfluss
         id: img5
         caption:
-        content: "Fabelhafter Abschluss: der Tsitsikamma National Park, Teil des größeren namensgebenden Garden Route NP, zieht sich als Streifen direkt an der Küste entlang, dort, wo der Storms River in den Ozean mündet. Ganzjährig mildes Klima, immergrüne Wälder und ein Überangebot an adrenalingeladenen Abenteuern machen das Küstenparadies zum würdigen Endpunkt der Route."
+        content: "Fabelhafter Abschluss: Der Tsitsikamma National Park, Teil des größeren namensgebenden Garden Route National Park, zieht sich als Streifen direkt an der Küste entlang, dort, wo der Storms River in den Ozean mündet. Ganzjährig mildes Klima, immergrüne Wälder und ein Überangebot an adrenalingeladenen Abenteuern machen das Küstenparadies zum würdigen Endpunkt der Route."
 
       - title: Abschied mit den Big Five
         id: img6
         caption:
-        content: "Es sei denn, Sie begeben sich weitere 250 km ostwärts zum Addo Elephant Nationalpark bei Port Elizabeth. Belohnt werden sie dort nicht nur von Sichtungen der Big Five (Löwe, Leopard, Nashorn, Elefant und Büffel) in freier Natur – auf den vorgelagerten Inseln treffen Sie auch afrikanische Pinguine und Delfine."
+        content: "Es sei denn, Sie begeben sich weitere 250 km ostwärts zum Addo-Elephant-Nationalpark bei Port Elizabeth. Belohnt werden Sie dort nicht nur von Sichtungen der Big Five (Löwe, Leopard, Nashorn, Elefant und Büffel) in freier Natur – auf den vorgelagerten Inseln treffen Sie auch afrikanische Pinguine und Delfine."

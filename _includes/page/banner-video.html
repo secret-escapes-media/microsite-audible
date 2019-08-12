@@ -9,7 +9,7 @@
         <h2 class="text--white sub-title--lg sub-title text--upper ">{{page.banner.title-sup}} </h2>
           <div class="space--md"></div>
       {% endif %}
-        <h1 class="banner-title banner-title--sm text--semibold">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+        <h1 class="banner-title {{page.banner.title-size}} text--semibold">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
           <div class="space--md"></div>
         {% if page.banner.title-sub %}<h2 class="sub-title">{{page.banner.title-sub}}</h2>{% endif %}
       </div>
@@ -18,8 +18,8 @@
     </div>
 
   </div>
-  <div class="banner__bg-video" style="background-image: url('{{site.img}}/content/hero.jpg')">
-    <video controls poster="{{site.img}}/content/hero.jpg"  playsinline loop muted autoplay>
+  <div class="banner__bg-video" style="background-image: url('{{site.img}}/content/hero.jpg'); ">
+    <video controls poster="{{site.img}}/content/hero.jpg"  playsinline loop muted autoplay >
     <source src="https://media.istockphoto.com/videos/pretty-young-brunette-woman-in-bikini-uses-mobile-phone-in-hammock-at-video-id942612356" type="video/mp4">
   </video>
 

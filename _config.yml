@@ -1,12 +1,12 @@
 # Site settings
 title: Audible
 client:
-  name: Client Name
+  name: Der Soundtrack zu Ihrer Reise
   link: "https://adbl.co/2JGgWZ7"
-core-se-link: https://www.secretescapes.de/aktuelle-angebote
-se-tracking-link: "utm_source=SE&utm_medium=hub&utm_campaign=audible_DE_2019"
+core-se-link: https://www.secretescapes.de/current-sales?utm_source=SE&utm_medium=hub&utm_campaign=audible_DE_2019
+se-tracking-link: "?utm_source=SE&utm_medium=hub&utm_campaign=audible_DE_2019"
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Audiofans Achtung! Egal ob Sie Roadtrips, Spa-Auszeiten oder Strandurlaub vorziehen – oder alle drei – ein Podcast oder Hörspiel von Audible bereichert jede Reise um eine weitere Facette.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site

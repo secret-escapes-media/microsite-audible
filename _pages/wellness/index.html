@@ -10,8 +10,10 @@ extra-js: true
 extra-css: true
 
 banner:
-  title: Wellness & Spa
+  title: Wellness &&nbsp;Spa
   title-sup: Alles eine Frage der Balance
+  title-size: banner-title--xxl
+  bg-hero: "background-position: 72% center;"
 
 page-nav:
   - id: royal
@@ -21,11 +23,11 @@ page-nav:
   - id: weltweit
     title: Wellness weltweit
 
-summary: "Um die Balance zwischen Körper und Geist zu finden, muss man nicht weit reisen. Aber nichts spricht dagegen, vor allem wenn man die Wahl zwischen edlen Saunenwelten an Alpengipfeln, orientalischen Oasen und balinesischen Dschungel-Spas hat. Für die Daheim&shy;gebliebenen warten zwischen Ostsee und Mosel vielfältige Entspannungs&shy;möglichkeiten. Dazu: hochwertige Hörkost, die zum Nachdenken bringt."
+summary: "Um die Balance zwischen Körper und Geist zu finden, muss man nicht weit reisen. Auch nicht, wenn man die Wahl zwischen edlen Saunenwelten vor Alpengipfeln, orientalischen Oasen in Wüstenlandschaften und Spas im balinesischen Dschungel hat. Für die Daheimgebliebenen warten zwischen Ostsee und Oberbayern vielfältige Entspannungsmöglichkeiten. Passend dazu: hochwertige Hörkost, die zum Nachdenken anregt."
 cta: Zur Balance
 
-intro-title: "Entspannung für die Ohren"
-intro: "Saunawelten, Infinity-Pools, Lomi-Lomi-Massagen: es gibt viele Arten und Weisen, das langersehnte Wohlbefinden herbeizurufen. Warum sich danach mit Lesen mühen? Einfach wählen: japanischer Tiefsinn, britische Liebesgeschichte oder Traumerkundung? Dann Augen schließen und sich treiben lassen."
+intro-title: "Entspannung für die&nbsp;Ohren"
+intro: "Es gibt viele Arten, langersehntes Wohlbefinden wieder herzustellen: Entspannung in Saunawelten, endlose Erholung in Infinity-Pools oder körperliche Wellness mit Lomi-Lomi-Massagen. Entschweben Sie dazu mit diesen Hörbüchern."
 
 ---
 
@@ -41,7 +43,7 @@ intro: "Saunawelten, Infinity-Pools, Lomi-Lomi-Massagen: es gibt viele Arten und
 {% for section in site.data[page.id] %}
 
 <div class="" id="{{section.id}}">
-  <div class="bv-parallax vpad--md" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; background-position: {{section.hero}};">
+  <div class="bv-parallax vpad--md" style="background-image:url({{site.img}}/content/{{page.id}}/{{section.id}}.jpg); background-repeat:no-repeat; background-size:cover; {{section.bg-pos}}">
   <div class="container ">
       <div class="space--xxxl vpad--xl bv-mob-hide"></div>
       <div class="space--xxxl"></div>

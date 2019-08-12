@@ -4,7 +4,7 @@
 
   // custom content headline
   font-family: $font-title-01;
-  line-height: 1.2;
+  line-height: 1.3;
   letter-spacing: 0;
   &--xxxl   { font-size: $s8; }
   &--xxl    { font-size: $s7; }
@@ -34,9 +34,14 @@
 
   // custom content headline
   font-family: $font-title-01;
-  font-size: $s3; // default size
+  font-size: $s2; // default size
+  line-height: 1.3;
+  font-weight: 400;
   &--lg     { font-size: $s4; }
   &--sm     { font-size: $s0; }
+  @include bp($md){
+    font-size: $s3; // default size
+  }
   @include bp($lg){
     font-size: $s4; // default size
     &--lg     { font-size: $s5; }
@@ -83,36 +88,40 @@
   font-family: $font-title-01;
   text-transform: uppercase;
   line-height: 1.3;
-  font-size: $s5;
+  font-size: $s4;
   //@include font-smoothing;
   letter-spacing: .03rem;
 
-  &--sm   { font-size: $s4; }
-  &--lg   { font-size: $s8; }
-  &--xxl   { font-size: $s9; }
+  &--sm   { font-size: $s3; }
+  &--lg   { font-size: $s5; }
+  &--xl   { font-size: $s6; }
+  &--xxl   { font-size: $s7; }
 
   @include bp($sm){
     //letter-spacing: .1rem;
-    font-size: $s7;
+    font-size: $s5;
 
-    &--sm   { font-size: $s6; }
-    &--lg   { font-size: $s9; }
-    &--xxl   { font-size: $s10; }
+    &--sm   { font-size: $s4; }
+    &--lg   { font-size: $s6; }
+    &--xl   { font-size: $s7; }
+    &--xxl   { font-size: $s8; }
   }
   @include bp($md){
     //letter-spacing: .1rem;
-    font-size: $s8;
+    font-size: $s6;
 
-  &--sm   { font-size: $s7; }
-  &--lg   { font-size: $s9; }
-  &--xxl   { font-size: $s11; }
+  &--sm   { font-size: $s5; }
+  &--lg   { font-size: $s7; }
+  &--xl   { font-size: $s8; }
+  &--xxl   { font-size: $s9; }
   }
   @include bp($lg){
-    font-size: $s10;
+    font-size: $s8;
 
-    &--sm   { font-size: $s9; }
-    &--lg   { font-size: $s11; }
-    &--xxl   { font-size: $s12; }
+    &--sm   { font-size: $s6; }
+    &--lg   { font-size: $s8; }
+    &--xl   { font-size: $s9; }
+    &--xxl   { font-size: $s10; }
   }
 
 

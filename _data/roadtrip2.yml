@@ -3,8 +3,6 @@
 - id: two
   title: Küstenspektakel in Irland
   num: "2"
-  cta: http://bit.ly/2Jbw9TC
-  description: "Zwischen majestätischer Alpenkulisse und türkisblauem See liegt Genf – die westlichste Stadt der Schweiz. 'Stadt des Friedens' wird der europäische Hauptsitz der UNO mit internationaler, humanitärer Tradition und weltstädtischem Flair an der Rhone auch genannt. Die kleine Metropole hat viel zu bieten, hier können Sie es&nbsp;entdecken."
 
   pois:
 
@@ -19,16 +17,16 @@
       - title: Von Malin Head nach Brow Head
         id: img2
         caption:
-        content: "Ob der Wild Atlantic Way die längste zusammenhängende Küstenstraße ist, sei dahingestellt. Die Fakten sprechen für sich: über 2.500 km von Nord nach Süd, sechs Regionen, über 500 Sehenswürdigkeiten und 50 Blue-Flag-Strände machen ihn zum Mekka für Roadtrip-Fans aller Fa­çon. Nationalparks, Surfspots, Berge, Wale und Delfine: so reich ist Irlands Westküste."
+        content: "Ob der Wild Atlantic Way die längste zusammenhängende Küstenstraße ist, sei dahingestellt. Die Fakten sprechen für sich: Über 2.500 km von Nord nach Süd, sechs Regionen, mehr als 500 Sehenswürdigkeiten und 50 Blue-Flag-Strände machen ihn zum Mekka für Roadtrip-Fans aller Fa­çon. Nationalparks, Surfspots, Berge, Wale und Delfine – so reich ist Irlands Westküste."
 
       - title: Buchten für Ästhetiker
         id: img3
         caption:
-        content: "Thailand? Kroatien? Nein, es ist die irische Clew Bay, die mit über 140 Inseln und unzähligen Felsen den Atem verschlägt. Kaum aufgeatmet folgt auch gleich das wilde Hinterland von Connemara, das bereits Oscar Wilde zum Lobhymnen animierte. Burgen, Abteien, klare Seen: Éire at its best!"
+        content: "Thailand? Kroatien? Nein, es ist die irische Clew Bay, die mit über 140 Inseln und unzähligen Felsen jedem Besucher den Atem verschlägt. Das wilde Hinterland von Connemara gleich nebenan ließ auch schon Oscar Wilde das Herz stocken. Malerische Abteien, klare Seen und Naturidyll: Èire at its best."
 
       - title: Klippen, die die Welt bedeuten
         id: img4
-        content: "Willkommen zu Irlands Hauptattraktion: Cliffs of Moher. Der UNESCO Global Geopark erstreckt sich über 8 km entlang Clares Küste, mit einmaligen Ausblicken auf bis zu 214 Metern Höhe. Perfekte Gelegenheit, um den Motor abzustellen und sich im ewigen Naturschauspiel von Land und Wellen zu verlieren. Tipp: kommen Sie nach 16 Uhr, wo die Besucherströme verebbt und Lichtbedingungen optimal sind."
+        content: "Willkommen bei Irlands Hauptattraktionen. Der Global Geopark ist UNESCO-Weltkulturerbe und erstreckt sich über 8 km entlang der Küste von Claire mit einmaligen Ausblicken von bis zu 241 über dem Meer. Eine perfekte Gelegenheit, um den Motor abzustellen und sich dem Naturschauspiel zwischen Land und Wellen zu widmen. Tipp: Kommen Sie nach 16 Uhr, wenn die Besucherströme verebbt und die Lichtbedingungen ideal sind."
 
       - title: Ring of Kerry und die Halbinseln
         id: img5

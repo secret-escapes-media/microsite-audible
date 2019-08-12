@@ -1,9 +1,9 @@
 {% for section in site.data.roadtrip2 %}
 
 
-<div class="vpad--xl bg--white" id="{{section.id}}">
-  <div class="container">
-    <div class="space--xl"></div>
+<div class="vpad--lg bg--white" id="{{section.id}}">
+    <div class="container">
+      <div class="space--xl"></div>
     <div class="width width--xxl">
        <div class="text text--xl text--center">
          <h2 class="title title--md text--semibold text--upper text--bv-grey">{{section.title}}</h2>
@@ -17,19 +17,18 @@
 <div id="jssor_2" class="bv-slider bv-js-slider2" >
        <!-- Loading Screen -->
 
-       <div data-u="slides2" class="bv-slides-wrap bv-js-slides2-wrap" >
+       <div data-u="slides2" class="bv-slides-wrap" id="bv-wrap2">
 
            {% for poi in section.pois.items %}
            <div>
 
-               <div class="bv-slides bv-js-slides2" data-u="image2" style="background-image: url('{{site.img}}/content/{{page.id}}/slider2/{{poi.id}}.jpg'); ">
+               <div class="bv-slides bv-js-slides2" data-u="image2" style="background-image: url('{{site.img}}/content/{{page.id}}/slider2/{{poi.id}}.jpg'); background-size: cover; background-position: center center!important; ">
 
                  <div class="bv-slider-title-wrap bv-js-slider2-title-wrap text--white" >
 
                       <div class=" text--left bv-slider-title bv-js-slider2-title bg--black">
 
-                        <h1 class="title title--sm text--semibold text--upper  ">{{poi.title}}</h1>
-
+                        <h1 class="title title--xxs text--semibold text--upper  ">{{poi.title}}</h1>
 
                         <p class="text text--lg ">{{poi.content}}</p>
                       </div>
@@ -43,7 +42,7 @@
        </div>
 
        <!-- Bullet Navigator -->
-       <div data-u="navigator2" class="jssorb051" style="position:absolute;bottom:12px;right:12px; z-index: 99;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+       <div data-u="navigator2" class="jssorb051" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
            <div data-u="prototype" class="i" style="width:16px;height:16px;">
                <svg viewbox="0 0 16000 16000" style="">
                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
@@ -52,14 +51,10 @@
        </div>
        <!-- Arrow Navigator -->
        <div data-u="arrowleft2" class="jssora051 bv-slider-arrow bv-slider-arrow--left"  data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-           <svg viewbox="0 0 16000 16000"  class="bv-slider-arrows-viewbox">
-               <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-           </svg>
+           <svg viewBox="0 0 6.5908 11.0605"><polygon points="5.53 11.061 0 5.53 5.53 0 6.591 1.061 2.121 5.53 6.591 10 5.53 11.061" fill="#fff"/></svg>
        </div>
        <div data-u="arrowright2" class="jssora051 bv-slider-arrow bv-slider-arrow--right"  data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-           <svg viewbox="0 0 16000 16000" class="bv-slider-arrows-viewbox">
-               <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-           </svg>
+           <svg viewBox="0 0 6.5908 11.0605"><polygon points="1.061 0 6.591 5.53 1.061 11.061 0 10 4.47 5.53 0 1.061 1.061 0" fill="#fff"/></svg>
        </div>
 
    </div>
@@ -85,12 +80,12 @@
     var navHeight2 =  document.getElementsByClassName('site-nav')[0].offsetHeight;
     var cssWidth2 = window.innerWidth;
     var cssHeight2 = window.innerHeight/1.2;
-    var bvSliderWrap2 = document.getElementsByClassName('bv-js-slides2-wrap');
+    var bvSliderWrap2 = document.getElementById('bv-wrap2');
     var bvSlider2 = document.getElementsByClassName('bv-js-slider2');
-        bvSliderWrap2[0].style.width = cssWidth2+'px';
-        bvSliderWrap2[0].style.height = cssHeight2+'px';
+        bvSliderWrap2.style.width = cssWidth2+'px';
+        bvSliderWrap2.style.height = cssHeight2+'px';
         bvSlider2[0].style.height = cssHeight2-navHeight2+'px';
-    console.log(cssHeight2-navHeight2+'px');
+    console.log(bvSlider2[0].style.height+' 2 '+bvSlider2[0].style.height);
 
     jssor_2_slider_init = function() {
 

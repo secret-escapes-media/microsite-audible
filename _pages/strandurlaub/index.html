@@ -10,12 +10,14 @@ nav-order: 2
 banner:
   title: Strand&shy;urlaub
   title-sub: Sonnencreme nicht vergessen
+  title-size: banner-title--xl
+  bg-hero: "background-position: 65% bottom;"
 
-summary: "Kein Wunder, dass Strandurlaub der Klassiker bleibt. Gibt es doch kaum zwei Strände, die einander gleichen. Als Beweis ziehen gleich sieben Beaches weltweit ins Feld: Karibik und Indischer Ozean, schwarze und glitzernd-weiße Strände, Küsten und Buchten an der Algarve, in Sardinien und Südamerika, dazu drei spannende Hörausflüge."
+summary: "Kein Wunder, dass der Strand ein Klassiker unter den Urlaubszielen ist. Ewig locken Meer und Sand – und doch zeigen sie sich stets unterschiedlich. Zum Beweis präsentieren wir hier sieben beliebte Beach-Destinationen weltweit: Von der Karibik bis zum Indischen Ozean, von schwarzen Vulkanstränden bis zu Puderzuckersand unter Palmen. Passend zum Blick bis zum Horizont gibt es drei Hörausflüge für Perspektiverweiterung im Urlaub."
 cta: Sonne tanken
 
-intro-title: "Wolkenfrei mit Aussicht auf Hörspaß"
-intro: "Meilenweit nichts als Sandstrand und tiefblaues Meer, die Sonnenbrille sitzt, ein Schirm spendet Schatten und die folgenden Hörbücher Kurzweil. Im Angebot: ein Sommer an der zauberhaften Amalfiküste, ein Blind Date mit unabsehbaren Konsequenzen und 2 Millionen Dollar am Meeresboden. "
+intro-title: "Wolkenfrei mit Aussicht auf&nbsp;Hörspaß"
+intro: "Im Blick: nichts als Sandstrand und tiefblaues Meer (und ein wenig Palmengrün, Dünengras oder Felsenklippen). Auf der Haut: Meeresbrise und Sonnenstrahlen. Im Ohr: Kurzweil mit Spannung für Entspannung dank dieser Hörbücher."
 
 ---
 
@@ -41,6 +43,19 @@ intro: "Meilenweit nichts als Sandstrand und tiefblaues Meer, die Sonnenbrille s
 
 <script>
 
+  var itemName = document.getElementById("bv-audiobook-thumb").title;
+	var itemNumber = document.getElementsByClassName("site-nav__item");
+	var itemNavTabs = itemNumber.length/2;
+  var itemIndex = itemName-1;
+  var audioAll = 0;
+
+for (var i=1; i<itemNavTabs; i++)
+	{
+	 var audioSingle = document.getElementsByClassName("bv-audiobook-thumb")[i].offsetWidth;
+   audioAll = audioAll + audioSingle;
+	 	console.log(audioSingle + ' '+  audioAll);
+
+	}
 
 var bvOverlay1 = document.getElementById("bv-overlay-1");
 var bvOverlay2 = document.getElementById("bv-overlay-2");
