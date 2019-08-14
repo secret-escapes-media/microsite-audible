@@ -21,11 +21,11 @@ page-nav:
   - id: three
     title: Italien
 
-summary: "Nirgendwo begegnet man sich selbst so sehr, wie bei einem Roadtrip. Hinter dem Steuer ist jeder Tag eine neue Herausforderung, keine Straße ist gleich und die schönsten Panoramen kommen oft unverhofft. Für die Abenteurer unter uns: Irlands Küste, Südafrikas Garden Route und Toskanas Welterbe-Städte – denn auch die Heldinnen und Helden der Hörbücher sind gerne unterwegs."
+summary: "Nirgendwo begegnet man sich selbst so sehr wie bei einem Roadtrip. Hinter dem Steuer ist jeder Tag eine neue Heraus&shy;forderung, keine Straße ist gleich und die schönsten Panoramen kommen oft unverhofft. Für die Abenteurer unter uns: Irlands Küste, Südafrikas Garden Route und Toskanas Welterbe-Städte – denn auch die Heldinnen und Helden der Hörbücher sind gerne&nbsp;unterwegs."
 cta: Weiter fahren
 
 intro-title: "Treibstoff für lange&nbsp;Wege"
-intro: "Der Tank ist voll, die nächste Ausfahrt weit und der Fuß auf dem Gaspedal. Kombinieren Sie Ihr Roadtrip-Erlebnis mit den Erfahrungen der Reisenden aus den folgenden Hörbüchern. Und erreichen Sie vor einzigartiger Kulisse und mit spannendem Zeitvertreib Ihr Ziel. "
+intro: "Der Tank ist voll, die nächste Ausfahrt weit und der Fuß auf dem Gas&shy;pedal. Kombinieren Sie Ihr Roadtrip-Erlebnis mit den Erfahrungen der Reisenden aus den folgenden Hörbüchern. Und erreichen Sie vor einzigartiger Kulisse und mit spannendem Zeit&shy;vertreib Ihr Ziel. "
 
 ---
 
@@ -70,13 +70,33 @@ intro: "Der Tank ist voll, die nächste Ausfahrt weit und der Fuß auf dem Gaspe
      bvOverlay6.onmouseout = function() {
        bvCaption6.style.visibility = "hidden";
      }
+
+
 </script>
 
 
 {% if page.page-nav %}{% include nav/page.html %}{% endif %}
 
-
-
+<div id="bv-roadtrips">
 {% include page/roadtrips/roadtrip1.html %}
 {% include page/roadtrips/roadtrip2.html %}
 {% include page/roadtrips/roadtrip3.html %}
+</div>
+
+<div id="bv-road-ie">
+
+  {% include page/roadtrips/roadtrip1-ie.html %}
+  {% include page/roadtrips/roadtrip2-ie.html %}
+  {% include page/roadtrips/roadtrip3-ie.html %}
+</div>
+<script>
+  var elem = document.getElementById("bv-road-ie");
+  var elem2 = document.getElementById("bv-roadtrips");
+  var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+
+  if (isIE11 === true) {
+        elem2.parentNode.removeChild(elem2);
+  }else{
+      elem.parentNode.removeChild(elem);
+  }
+</script>

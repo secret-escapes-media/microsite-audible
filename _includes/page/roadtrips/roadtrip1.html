@@ -14,32 +14,22 @@
 
 
 
-<div id="jssor_{{section.num}}" class="bv-slider" >
+<div id="jssor_1" class="bv-slider" >
        <!-- Loading Screen -->
 
        <div data-u="slides" class="bv-slides-wrap" >
-
            {% for poi in section.pois.items %}
            <div>
-
-               <div class="bv-slides" data-u="image" style="background-image: url('{{site.img}}/content/{{page.id}}/slider{{section.num}}/{{poi.id}}.jpg'); background-size: cover; background-position: center bottom!important;">
-
+               <div class="bv-slides" data-u="image" style="background-image: url('{{site.img}}/content/{{page.id}}/slider{{section.num}}/{{poi.id}}.jpg'); background-size: cover; background-position: center bottom;">
                  <div class="bv-slider-title-wrap text--white" >
-
                       <div class=" text--left bv-slider-title bg--black">
-
                         <h1 class="title title--xxs text--semibold text--upper  ">{{poi.title}}</h1>
-
-
                         <p class="text text--lg ">{{poi.content}}</p>
                       </div>
-
                   </div>
               </div>
           </div>
            {% endfor %}
-
-
        </div>
 
        <!-- Bullet Navigator -->
@@ -137,7 +127,6 @@
                $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
                /*#endregion responsive code end*/
            };
-
 
 
 </script>

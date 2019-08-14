@@ -13,11 +13,11 @@ banner:
   title-size: banner-title--xl
   bg-hero: "background-position: 65% bottom;"
 
-summary: "Kein Wunder, dass der Strand ein Klassiker unter den Urlaubszielen ist. Ewig locken Meer und Sand – und doch zeigen sie sich stets unterschiedlich. Zum Beweis präsentieren wir hier sieben beliebte Beach-Destinationen weltweit: Von der Karibik bis zum Indischen Ozean, von schwarzen Vulkanstränden bis zu Puderzuckersand unter Palmen. Passend zum Blick bis zum Horizont gibt es drei Hörausflüge für Perspektiverweiterung im Urlaub."
+summary: "Kein Wunder, dass der Strand ein Klassiker unter den Urlaubszielen ist. Ewig locken Meer und Sand – und doch zeigen sie sich stets unterschiedlich. Zum Beweis präsentieren wir hier sieben beliebte Beach-Destinationen weltweit: Von der Karibik bis zum Indischen Ozean, von schwarzen Vulkanstränden bis zu Puder&shy;zuckersand unter Palmen. Passend zum Blick bis zum Horizont gibt es drei Hörausflüge für Perspektiv&shy;erweiterung im&nbsp;Urlaub."
 cta: Sonne tanken
 
 intro-title: "Wolkenfrei mit Aussicht auf&nbsp;Hörspaß"
-intro: "Im Blick: nichts als Sandstrand und tiefblaues Meer (und ein wenig Palmengrün, Dünengras oder Felsenklippen). Auf der Haut: Meeresbrise und Sonnenstrahlen. Im Ohr: Kurzweil mit Spannung für Entspannung dank dieser Hörbücher."
+intro: "Im Blick: nichts als Sandstrand und tiefblaues Meer (und ein wenig Palmen&shy;grün, Dünen&shy;gras oder Felsen&shy;klippen). Auf der Haut: Meeres&shy;brise und Sonnen&shy;strahlen. Im Ohr: Kurzweil mit Spannung für Ent&shy;spannung dank dieser Hörbücher."
 
 ---
 
@@ -43,20 +43,6 @@ intro: "Im Blick: nichts als Sandstrand und tiefblaues Meer (und ein wenig Palme
 
 <script>
 
-  var itemName = document.getElementById("bv-audiobook-thumb").title;
-	var itemNumber = document.getElementsByClassName("site-nav__item");
-	var itemNavTabs = itemNumber.length/2;
-  var itemIndex = itemName-1;
-  var audioAll = 0;
-
-for (var i=1; i<itemNavTabs; i++)
-	{
-	 var audioSingle = document.getElementsByClassName("bv-audiobook-thumb")[i].offsetWidth;
-   audioAll = audioAll + audioSingle;
-	 	console.log(audioSingle + ' '+  audioAll);
-
-	}
-
 var bvOverlay1 = document.getElementById("bv-overlay-1");
 var bvOverlay2 = document.getElementById("bv-overlay-2");
 var bvOverlay3 = document.getElementById("bv-overlay-3");
@@ -70,6 +56,7 @@ var bvCaption3 = document.getElementById("bv-caption-3");
 bvOverlay1.onmouseover = function() {
   bvCaption1.style.visibility = "visible";
 }
+
 bvOverlay1.onmouseout = function() {
   bvCaption1.style.visibility = "hidden";
 }
@@ -77,6 +64,7 @@ bvOverlay1.onmouseout = function() {
 bvOverlay2.onmouseover = function() {
   bvCaption2.style.visibility = "visible";
 }
+
 bvOverlay2.onmouseout = function() {
   bvCaption2.style.visibility = "hidden";
 }
@@ -84,10 +72,9 @@ bvOverlay2.onmouseout = function() {
 bvOverlay3.onmouseover = function() {
   bvCaption3.style.visibility = "visible";
 }
+
 bvOverlay3.onmouseout = function() {
   bvCaption3.style.visibility = "hidden";
 }
-
-
 
 </script>

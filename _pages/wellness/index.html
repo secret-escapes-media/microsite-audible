@@ -23,11 +23,11 @@ page-nav:
   - id: weltweit
     title: Wellness weltweit
 
-summary: "Um die Balance zwischen Körper und Geist zu finden, muss man nicht weit reisen. Auch nicht, wenn man die Wahl zwischen edlen Saunenwelten vor Alpengipfeln, orientalischen Oasen in Wüstenlandschaften und Spas im balinesischen Dschungel hat. Für die Daheimgebliebenen warten zwischen Ostsee und Oberbayern vielfältige Entspannungsmöglichkeiten. Passend dazu: hochwertige Hörkost, die zum Nachdenken anregt."
+summary: "Um die Balance zwischen Körper und Geist zu finden, muss man nicht weit reisen. Auch nicht, wenn man die Wahl zwischen edlen Saunen&shy;welten vor Alpen&shy;gipfeln, orienta&shy;lischen Oasen in Wüsten&shy;land&shy;schaften und Spas im balinesischen Dschungel hat. Für die Daheim&shy;gebliebenen warten zwischen Ostsee und Ober&shy;bayern vielfältige Ent&shy;spannungs&shy;möglich&shy;keiten. Passend dazu: hochwertige Hörkost, die zum Nachdenken&nbsp;anregt."
 cta: Zur Balance
 
 intro-title: "Entspannung für die&nbsp;Ohren"
-intro: "Es gibt viele Arten, langersehntes Wohlbefinden wieder herzustellen: Entspannung in Saunawelten, endlose Erholung in Infinity-Pools oder körperliche Wellness mit Lomi-Lomi-Massagen. Entschweben Sie dazu mit diesen Hörbüchern."
+intro: "Es gibt viele Arten, langersehntes Wohl&shy;befinden wieder herzustellen: Ent&shy;spannung in Sauna&shy;welten, endlose Erholung in Infinity-Pools oder körper&shy;liche Well&shy;ness mit Lomi-Lomi-Massagen. Entschweben Sie dazu mit diesen Hörbüchern."
 
 ---
 
@@ -36,9 +36,6 @@ intro: "Es gibt viele Arten, langersehntes Wohlbefinden wieder herzustellen: Ent
 {% include audiobooks/regio-audiobooks.html %}
 
 {% if page.page-nav %}{% include nav/page.html %}{% endif %}
-
-
-
 
 {% for section in site.data[page.id] %}
 
@@ -66,13 +63,16 @@ intro: "Es gibt viele Arten, langersehntes Wohlbefinden wieder herzustellen: Ent
           <div id="slider-{{forloop.index}}" class="js-slider slider">
           <div class="slider__images">
             <noscript class="js-lazy-load-slider">
+            <!--   {% for images in section.pois.items.title.hotel-img %}
+              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/{{images.img}}.jpg" />
 
-              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/01.jpg" />
-              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/02.jpg" />
-              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/03.jpg" />
-              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/04.jpg" />
-              <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/05.jpg" />
+              {% endfor %}-->
 
+             <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/01.jpg" />
+             <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/02.jpg" />
+             <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/03.jpg" />
+             <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/04.jpg" />
+             <img class="slider__image" src="{{site.img}}/content/{{page.id}}/{{section.id}}/{{poi.id}}/05.jpg" />
             </noscript>
           </div>
           <div class="slider__btn-wrap">
@@ -111,29 +111,13 @@ intro: "Es gibt viele Arten, langersehntes Wohlbefinden wieder herzustellen: Ent
 <script>
 
 
-
 var bvOverlay7 = document.getElementById("bv-overlay-7");
 var bvOverlay8 = document.getElementById("bv-overlay-8");
 var bvOverlay9 = document.getElementById("bv-overlay-9");
 
-
 var bvCaption7 = document.getElementById("bv-caption-7");
 var bvCaption8 = document.getElementById("bv-caption-8");
 var bvCaption9 = document.getElementById("bv-caption-9");
-
-
-/*
-for ( i = 1; i < 10; i++){
-
-
-  bvOverlay[i].onmouseover = function() {
-    bvCaption[i].style.visibility = "visible";
-
-  }
-    console.log(bvOverlay);
-}*/
-
-//  console.log(bvOverlay2);
 
 
 bvOverlay7.onmouseover = function() {

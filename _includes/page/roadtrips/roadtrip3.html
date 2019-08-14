@@ -18,28 +18,18 @@
        <!-- Loading Screen -->
 
        <div data-u="slides3" class="bv-slides-wrap" id="bv-wrap3" >
-
            {% for poi in section.pois.items %}
            <div>
-
                <div class="bv-slides bv-js-slides3" data-u="image3" style="background-image: url('{{site.img}}/content/{{page.id}}/slider3/{{poi.id}}.jpg'); background-size: cover; background-position: center bottom!important; ">
-
                  <div class="bv-slider-title-wrap bv-js-slider3-title-wrap text--white" >
-
                       <div class=" text--left bv-slider-title bv-js-slider3-title bg--black">
-
                         <h1 class="title title--xxs text--semibold text--upper  ">{{poi.title}}</h1>
-
-
                         <p class="text text--lg ">{{poi.content}}</p>
                       </div>
-
                   </div>
               </div>
           </div>
            {% endfor %}
-
-
        </div>
 
        <!-- Bullet Navigator -->

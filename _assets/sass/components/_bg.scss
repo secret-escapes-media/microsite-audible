@@ -4,7 +4,12 @@
   &--white { background-color: $white; }
   &--light { background-color: $grey-lightest; }
   &--dark  { background-color: $grey-dark; }
-  &--black  { background-color: rgba($black, .7); }
+  &--black  { background-color: rgba($black, .4);   
+    @include bp($lg){
+      background-color: rgba($black, .7);
+    }
+
+  }
   &--beige  { background-color: $bv-beige; }
   &--img   { @include background-attributes; }
   &__fixed {

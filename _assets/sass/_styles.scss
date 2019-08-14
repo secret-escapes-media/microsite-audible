@@ -115,16 +115,7 @@
    ========================================================================== */
 
 .bv-center{
-  /*text-align: center;
-	width: 60%;
- 	//height: 50%;
-  margin: auto;
-  position: absolute;
-  //background-color: #00AEE2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;*/
+
 }
 
 .bv-slider{
@@ -133,9 +124,6 @@
   top:0px;
   left:0px;
   width: 100%;
-
-  //height: 93%;
-  //padding-bottom: 16%!important;
   overflow:hidden;
   visibility:hidden;
 }
@@ -145,8 +133,6 @@
   position:relative;
   top:0px;
   left:0px;
-  //width: $md;
-  //height:100%;
   overflow:hidden;
 
 }
@@ -188,10 +174,41 @@
   }
 }
 
+.bv-slider-title-ie{
+
+    position: absolute;
+    width: 100%;
+    padding: 20px 25px 20px;
+    bottom: 0px;
+
+    @include bp($lg){
+      width: 80%;
+      padding: 30px 40px 35px;
+      max-width: 997px;
+      bottom: 40px;
+  }
+    @include bp($xl){
+
+      width: 80%;
+      padding: 40px 60px 50px;
+      max-width: 997px;
+      bottom: 100px;
+    }
+    @include bp($xxxl){
+    width: 80%;
+    bottom: 40px;
+  }
+    @include bp($xxxxl){
+    width: 60%;
+    bottom: 40px;
+    }
+}
+
 .bv-slider-title{
   position: absolute;
   width: 100%;
-  padding: 20px 20px 55px;
+  padding: 20px 34px 55px;
+  left: 0px;
   bottom: 40px;
 
   @include bp($lg){
@@ -199,6 +216,7 @@
     padding: 30px 40px 35px;
     max-width: 997px;
     bottom: 100px;
+    left: auto;
 }
   @include bp($xl){
 
@@ -206,14 +224,17 @@
     padding: 40px 60px 50px;
     max-width: 997px;
     bottom: 100px;
+    left: auto;
   }
   @include bp($xxxl){
   width: 80%;
   bottom: 100px;
+  left: auto;
 }
   @include bp($xxxxl){
   width: 60%;
   bottom: 100px;
+  left: auto;
   }
 }
 
@@ -255,7 +276,7 @@
 .bv-slider-arrow{
   width:35px;
   height:35px;
-  margin-top: 70%;
+  margin-top: 80%;
   z-index: 99;
   transform: scale(.4);
   @include bp($lg){
@@ -263,7 +284,7 @@
     margin-top: 0px;
     width:55px;
     height:55px;
-    transform: scale(.7);
+    transform: scale(.6);
 }
   &--left{left:0; }
   &--right{right:0;}
